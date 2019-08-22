@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-jwt-token",
+  "version": "1.0.0",
+  "description": "\"Protecting API routes with JSON web token\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tearshred/NodeJS-JWT-Token.git"
+  },
+  "author": "Ves Miskeljin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tearshred/NodeJS-JWT-Token/issues"
+  },
+  "homepage": "https://github.com/tearshred/NodeJS-JWT-Token#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.10",
+    "nodemon": "^1.19.1"
+  }
+}
